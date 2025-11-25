@@ -10,7 +10,7 @@
 
 ## Задание 2
 
-В директории [task_1.md](/task_2) содержится файл [TESTCASES.md](/task_2/TESTCASES.MD) с тест-кейсами, тесты для эндпоинтов:
+В директории [/task_2](/task_2) содержится файл [TESTCASES.md](/task_2/TESTCASES.MD) с тест-кейсами, тесты для эндпоинтов:
 
 GET /api/1/item/{id}     
 
@@ -37,4 +37,5 @@ POST /api/1/item
 3. Перейдите в директорию /task_2. Запустите тесты:
 
 go test -v
+
 или go test -v -run TestCreateItem_Positive для конкретного теста
